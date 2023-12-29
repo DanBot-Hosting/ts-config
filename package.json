@@ -1,9 +1,12 @@
 {
-  "name": "ts-config",
+  "name": "@danbot-hosting/ts-config",
   "version": "1.0.0",
   "description": "A custom TypeScript config for DBH repositories",
   "main": "src/tsconfig.json",
-  "repository": "https://github.com/DanBot-Hosting/ts-config.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanBot-Hosting/ts-config.git"
+  },
   "author": "DanBot-Hosting",
   "license": "MIT",
   "exports": {
@@ -25,6 +28,9 @@
     "danbot",
     "danbot-hosting",
     "dbh-typescript"
+  ],
+  "files": [
+    "src/tsconfig.json"
   ],
   "publishConfig": {
     "access": "public"
